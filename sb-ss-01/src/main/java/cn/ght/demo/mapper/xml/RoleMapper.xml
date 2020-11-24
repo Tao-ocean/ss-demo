@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.ght.demo.mapper.RoleMapper">
+
+    <select id="getRolesByUserId" resultType="cn.ght.demo.entity.Role">
+        select t.role_name
+        from tb_user_role r
+        left join tb_role t on r.role_id = t.role_id
+        where r.user_id = #{userId}
+    </select>
+</mapper>    
