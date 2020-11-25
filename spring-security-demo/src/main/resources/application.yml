@@ -6,5 +6,5 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 mybatis-plus:
   global-config:
-    # 关闭MP3.0自带的banner
+    # 鍏抽棴MP3.0鑷甫鐨刡anner
     banner: false

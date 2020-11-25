@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="sb-ss-01" />
+        <module name="simple-login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="sb-ss-01" target="1.8" />
+      <module name="simple-login" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
